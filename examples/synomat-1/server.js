@@ -1,83 +1,89 @@
+
+
 var _ = require('underscore');
 var options = require('./options.js');
 var ntwitter = require('ntwitter');
 var fs = require('fs');
-
+var pages = require('./pages.js');
 var tweeter = new ntwitter(options.twitter);
 
 var me = options.twitter.username;
 
-var thesaurus = loadThesaurus();
+var currentPage = 'page_1';
+
+
+
+// var thesaurus = loadThesaurus();
 bot();
 
-function loadThesaurus()
-{
-  console.log("Loading thesaurus...");
-  var thesaurus = {};
-  var lines = fs.readFileSync(__dirname + '/mthesaur.txt').toString().split("\n");
-  _.each(lines, function(line) {
-    var words = line.split(',');
-    if (words.length)
-    {
-      var term = words[0];
-      while (true)
-      {
-        var synonyms = words.join(', ');
-        // 140 characters minus 15 character username minus
-        // leading @ in reply minus space after username
-        if (synonyms.length > (140 - 15 - 2))
-        {
-          words.pop();
-          continue;
-        }
-        else
-        {
-          break;
-        }
-      }
-      thesaurus[term] = synonyms;
-    }
-  });
-  console.log("Thesaurus loaded.");
-  return thesaurus;
-}
 
-function bot()
-{
+function bot() {
   tweeter.verifyCredentials(function (err, data) {
-    if (err)
-    {
+    if (err) {
       console.log("Credentials bad. Bummer. Go check that in dev.twitter.com.");
     }
     console.log("Verified credentials");
   })
   .stream('user', { track: options.twitter.username }, function(stream) {
+  // .stream('statuses/sample', function(stream) {
     console.log("Listening to tweets");
     stream.on('data', function (data) {
+
       if (!data.user)
       {
         // Not a tweet. For example I've received a list of friend ids
         // here for some reason
         return;
       }
+
+
       var them = data.user.screen_name;
-      if (data.in_reply_to_screen_name === me) {
+
+      if (data.in_reply_to_screen_name.toLowerCase() === me.toLowerCase()) {
         var result = data.text.match(/ (\w+)\s*$/);
-        if (result)
-        {
-          var word = result[1].toLowerCase();
-          if (_.has(thesaurus, word))
-          {
-            reply(thesaurus[word]);
+
+        if (result) {
+          var word = result[1].toLowerCase(),
+            isMatch=false;
+        console.log(pages[currentPage]);
+          _.each(pages[currentPage].decisions, function(decision, i){
+            console.log(decision);
+            if(word === decision.name.toLowerCase()){
+              isMatch=true;
+              currentPage = 'page_' + decision.page;
+            }
+
+          });
+          console.log('ok');
+          console.log(isMatch);
+          if(isMatch) {
+              // match
+              var replyText = pages[currentPage].url + " choose",
+                nextOpts = '';
+
+              _.each(pages[currentPage].content, function(decision, i){
+
+                if(i>0) {
+                  nextOpts += " or";
+                }
+
+                nextOpts =  nextOpts + ' ' + decision.name;
+              });
+
+              replyText += nextOpts;
+
+              console.log(replyText);
+              reply(replyText);
+
+          } else {
+            // not a match
+            // reply('')
           }
-          else
-          {
-            reply("sorry, I don't know the word " + word + ".");
-          }
-        }
-        else
-        {
-          reply("just tweet me one word and I will tweet back synonyms, analogues, equivalents.");
+
+
+          // reply()
+        } else {
+          reply("just tweet me one word and I will tweet back answers, analogues, equivalents.");
         }
       }
       function reply(msg)
