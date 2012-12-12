@@ -83,7 +83,7 @@ function bot() {
 
           // reply()
         } else {
-          reply("just tweet me one word and I will tweet back answers, analogues, equivalents.");
+          reply("just tweet me one word and I will tweet back answers.");
         }
       }
       function reply(msg)
