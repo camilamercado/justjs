@@ -6,7 +6,7 @@ module.exports = {
 		decisions:[
 			{
 				page:1,
-				name:''
+				name:'Start'
 			}
 		]
 	},
