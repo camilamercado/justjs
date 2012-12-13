@@ -1,7 +1,7 @@
 module.exports = {
 
 	
-	start: {
+	page_0: {
 		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/001.htm',
 		decisions:[
 			{
