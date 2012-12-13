@@ -5,12 +5,8 @@ module.exports = {
 		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/001.htm',
 		decisions:[
 			{
-				page:16,
-				name:'YoYo'
-			}, 
-			{
-				page:101,
-				name:'Cellar'
+				page:1,
+				name:'Start'
 			}
 		]
 	},
