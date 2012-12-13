@@ -48,7 +48,7 @@ module.exports = {
 		decisions:[
 			{
 				page:1,
-				name:'Start-Over'
+				name:'Begin-Again'
 			}
 		]
 	},
