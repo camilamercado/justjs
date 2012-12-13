@@ -48,7 +48,7 @@ module.exports = {
 		decisions:[
 			{
 				page:1,
-				name:'-Over'
+				name:'Start-Over'
 			}
 		]
 	},
