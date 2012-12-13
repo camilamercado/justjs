@@ -14,6 +14,7 @@ module.exports = {
 
 	page_1: {
 		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/001.htm',
+		opts: "yoyo or cellar",
 		decisions:[
 			{
 				page:16,
@@ -28,6 +29,7 @@ module.exports = {
 
 	page_16: {
 		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/016.htm',
+		opts: "follow or stay",
 		decisions: [
 			{
 				page:64,
@@ -42,10 +44,11 @@ module.exports = {
 
 	page_101: {
 		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/101.htm',
+		opts: "Start-Over",
 		decisions:[
 			{
 				page:1,
-				name:'Start Over'
+				name:'Start-Over'
 			}
 		]
 	},
@@ -53,6 +56,7 @@ module.exports = {
 
 	page_64: {
 		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/064.htm',
+		opts: "farmhouse or running",
 		decisions:[
 			{
 				page:24,
@@ -67,6 +71,7 @@ module.exports = {
 
 	page_44: {
 		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/044.htm',
+		opts: "keep-running or couple",
 		decisions:[
 			{
 				page:26,
@@ -81,6 +86,7 @@ module.exports = {
 
 	page_24: {
 		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/024.htm',
+		opts: "animals or not",
 		decisions:[
 			{
 				page:98,

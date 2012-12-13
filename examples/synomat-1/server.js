@@ -58,7 +58,7 @@ function bot() {
           console.log(isMatch);
           if(isMatch) {
               // match
-              var replyText = pages[currentPage].url + " Choose your path. Reply with the one word only.",
+              var replyText = pages[currentPage].url + " To keep going tweet back ." + pages[currentPage].opts,
                 nextOpts = '';
 
               _.each(pages[currentPage].content, function(decision, i){
