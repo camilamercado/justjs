@@ -9,7 +9,7 @@ var tweeter = new ntwitter(options.twitter);
 
 var me = options.twitter.username;
 
-var currentPage = 'page_1';
+var currentPage = 'page_0';
 
 
 
