@@ -2,7 +2,7 @@ module.exports = {
 
 	
 	page_0: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/001.htm',
+		url: 'http://camilamercado.com/GBot/pp/001.htm',
 		decisions:[
 			{
 				page:1,
@@ -13,7 +13,7 @@ module.exports = {
 
 
 	page_1: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/001.htm',
+		url: 'http://camilamercado.com/GBot/pp/001.htm',
 		opts: "yoyo or cellar",
 		decisions:[
 			{
@@ -28,7 +28,7 @@ module.exports = {
 	},
 
 	page_16: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/016.htm',
+		url: 'http://camilamercado.com/GBot/pp/016.htm',
 		opts: "follow or stay",
 		decisions: [
 			{
@@ -43,7 +43,7 @@ module.exports = {
 	},
 
 	page_101: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/101.htm',
+		url: 'http://camilamercado.com/GBot/pp/101.htm',
 		opts: "Begin-Again",
 		decisions:[
 			{
@@ -55,7 +55,7 @@ module.exports = {
 
 
 	page_64: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/064.htm',
+		url: 'http://camilamercado.com/GBot/pp/064.htm',
 		opts: "farmhouse or running",
 		decisions:[
 			{
@@ -70,7 +70,7 @@ module.exports = {
 	},
 
 	page_44: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/044.htm',
+		url: 'http://camilamercado.com/GBot/pp/044.htm',
 		opts: "keep-running or couple",
 		decisions:[
 			{
@@ -85,7 +85,7 @@ module.exports = {
 	},
 
 	page_24: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/024.htm',
+		url: 'http://camilamercado.com/GBot/pp/024.htm',
 		opts: "animals or not",
 		decisions:[
 			{
@@ -100,7 +100,7 @@ module.exports = {
 	},
 
 	page_106: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/106.htm',
+		url: 'http://camilamercado.com/GBot/pp/106.htm',
 		opts: "",
 		decisions:[
 			
@@ -112,7 +112,7 @@ module.exports = {
 	},
 
 	page_26: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/026.htm',
+		url: 'http://camilamercado.com/GBot/pp/026.htm',
 		opts: "Storehouse or Wendy",
 		decisions: 'Keep-Running' [
 			{
@@ -127,7 +127,7 @@ module.exports = {
 	},
 
 	page_109: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/109.htm',
+		url: 'http://camilamercado.com/GBot/pp/109.htm',
 		opts: "Keep or Van",
 		decisions:[
 			{
@@ -142,7 +142,7 @@ module.exports = {
 	},
 
 	page_98: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/098.htm',
+		url: 'http://camilamercado.com/GBot/pp/098.htm',
 		opts: "School or Bus",
 		decisions:[
 			{
@@ -157,7 +157,7 @@ module.exports = {
 	},
 
 	page_30: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/030.htm',
+		url: 'http://camilamercado.com/GBot/pp/030.htm',
 		opts: "Cross or Other",
 		decisions:[
 			{
@@ -172,7 +172,7 @@ module.exports = {
 	},
 
 	page_80: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/080.htm',
+		url: 'http://camilamercado.com/GBot/pp/080.htm',
 		opts: "Rope or Means",
 		decisions:[
 			{
@@ -187,7 +187,7 @@ module.exports = {
 	},
 
 	page_129: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/129.htm',
+		url: 'http://camilamercado.com/GBot/pp/129.htm',
 		opts: "Shelter or Going",
 		decisions:[
 			{
@@ -202,7 +202,7 @@ module.exports = {
 	},
 
 	page_47: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/047.htm',
+		url: 'http://camilamercado.com/GBot/pp/047.htm',
 		opts: "Accept or Dont",
 		decisions:[
 			{
@@ -217,7 +217,7 @@ module.exports = {
 	},
 
 	page_89: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/089.htm',
+		url: 'http://camilamercado.com/GBot/pp/089.htm',
 		opts: "Break or Speed",
 		decisions:[
 			{
@@ -232,7 +232,7 @@ module.exports = {
 	},
 
 	page_32: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/032.htm',
+		url: 'http://camilamercado.com/GBot/pp/032.htm',
 		opts: "Free or Reason",
 		decisions:[
 			{
@@ -247,7 +247,7 @@ module.exports = {
 	},
 
 	page_112: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/112.htm',
+		url: 'http://camilamercado.com/GBot/pp/112.htm',
 		opts: "Cross or Other",
 		decisions:[
 			{
@@ -262,7 +262,7 @@ module.exports = {
 	},
 
 	page_39: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/039.htm',
+		url: 'http://camilamercado.com/GBot/pp/039.htm',
 		opts: "Stay-put or Leave",
 		decisions:[
 			{
@@ -277,7 +277,7 @@ module.exports = {
 	},
 
 	page_96: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/096.htm',
+		url: 'http://camilamercado.com/GBot/pp/096.htm',
 		opts: "",
 		decisions:[
 			
@@ -289,7 +289,7 @@ module.exports = {
 	},
 
 	page_75: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/075.htm',
+		url: 'http://camilamercado.com/GBot/pp/075.htm',
 		opts: "",
 		decisions:[
 			
@@ -301,7 +301,7 @@ module.exports = {
 	},
 
 	page_31: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/031.htm',
+		url: 'http://camilamercado.com/GBot/pp/031.htm',
 		opts: "",
 		decisions:[
 			
@@ -314,7 +314,7 @@ module.exports = {
 
 
 	page_71: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/071.htm',
+		url: 'http://camilamercado.com/GBot/pp/071.htm',
 		opts: "Carpet or Out",
 		decisions:[
 			{
@@ -329,7 +329,7 @@ module.exports = {
 	},
 
 	page_45: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/045.htm',
+		url: 'http://camilamercado.com/GBot/pp/045.htm',
 		opts: "Trailer or Cave",
 		decisions:[
 			{
@@ -344,7 +344,7 @@ module.exports = {
 	},
 
 	page_6: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/006.htm',
+		url: 'http://camilamercado.com/GBot/pp/006.htm',
 		opts: "",
 		decisions:[
 			
@@ -356,7 +356,7 @@ module.exports = {
 	},
 
 	page_124: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/124.htm',
+		url: 'http://camilamercado.com/GBot/pp/124.htm',
 		opts: "",
 		decisions:[
 			
@@ -368,7 +368,7 @@ module.exports = {
 	},
 
 	page_25: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/025.htm',
+		url: 'http://camilamercado.com/GBot/pp/025.htm',
 		opts: "",
 		decisions:[
 			
@@ -380,7 +380,7 @@ module.exports = {
 	},
 
 	page_102: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/102.htm',
+		url: 'http://camilamercado.com/GBot/pp/102.htm',
 		opts: "Experiment or Agree",
 		decisions:[
 			{
@@ -395,7 +395,7 @@ module.exports = {
 	},
 
 	page_57: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/057.htm',
+		url: 'http://camilamercado.com/GBot/pp/057.htm',
 		opts: "",
 		decisions:[
 			
@@ -407,7 +407,7 @@ module.exports = {
 	},
 
 	page_119: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/119.htm',
+		url: 'http://camilamercado.com/GBot/pp/119.htm',
 		opts: "",
 		decisions:[
 			
@@ -419,7 +419,7 @@ module.exports = {
 	},
 
 	page_39: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/039.htm',
+		url: 'http://camilamercado.com/GBot/pp/039.htm',
 		opts: "Stay-put or Leave",
 		decisions:[
 			{
@@ -434,7 +434,7 @@ module.exports = {
 	},
 
 	page_96: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/096.htm',
+		url: 'http://camilamercado.com/GBot/pp/096.htm',
 		opts: "",
 		decisions:[
 			
@@ -446,7 +446,7 @@ module.exports = {
 	},
 
 	page_37: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/037.htm',
+		url: 'http://camilamercado.com/GBot/pp/037.htm',
 		opts: "",
 		decisions: 'Stay-put' [
 			{
@@ -457,7 +457,7 @@ module.exports = {
 	},
 
 	page_67: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/067.htm',
+		url: 'http://camilamercado.com/GBot/pp/067.htm',
 		opts: "Rescue or Help",
 		decisions:[
 			{
@@ -472,7 +472,7 @@ module.exports = {
 	},
 
 	page_69: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/069.htm',
+		url: 'http://camilamercado.com/GBot/pp/069.htm',
 		opts: "",
 		decisions:[
 			
@@ -484,7 +484,7 @@ module.exports = {
 	},
 
 	page_50: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/050.htm',
+		url: 'http://camilamercado.com/GBot/pp/050.htm',
 		opts: "",
 		decisions:[
 			
@@ -496,7 +496,7 @@ module.exports = {
 	},
 
 	page_97: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/097.htm',
+		url: 'http://camilamercado.com/GBot/pp/097.htm',
 		opts: "Ethel or Escape",
 		decisions:[
 			{
@@ -511,7 +511,7 @@ module.exports = {
 	},
 
 	page_55: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/055.htm',
+		url: 'http://camilamercado.com/GBot/pp/055.htm',
 		opts: "Boulder or Continue",
 		decisions:[
 			
@@ -527,7 +527,7 @@ module.exports = {
 	},
 
 	page_40: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/040.htm',
+		url: 'http://camilamercado.com/GBot/pp/040.htm',
 		opts: "Storm or Ground",
 		decisions:[
 			{
@@ -542,7 +542,7 @@ module.exports = {
 	},
 
 	page_99: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/099.htm',
+		url: 'http://camilamercado.com/GBot/pp/099.htm',
 		opts: "Stop or Plan",
 		decisions:[
 			{
@@ -557,7 +557,7 @@ module.exports = {
 	},
 
 	page_68: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/068.htm',
+		url: 'http://camilamercado.com/GBot/pp/068.htm',
 		opts: "",
 		decisions:[
 			{
@@ -568,7 +568,7 @@ module.exports = {
 	},
 
 	page_49: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/049.htm',
+		url: 'http://camilamercado.com/GBot/pp/049.htm',
 		opts: "",
 		decisions:[
 			
@@ -580,7 +580,7 @@ module.exports = {
 	},
 
 	page_13: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/013.htm',
+		url: 'http://camilamercado.com/GBot/pp/013.htm',
 		opts: "Page or Doll",
 		decisions:[
 			{
@@ -595,7 +595,7 @@ module.exports = {
 	},
 
 	page_103: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/103.htm',
+		url: 'http://camilamercado.com/GBot/pp/103.htm',
 		opts: "",
 		decisions:[
 			
@@ -608,7 +608,7 @@ module.exports = {
 	},
 
 	page_91: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/91.htm',
+		url: 'http://camilamercado.com/GBot/pp/91.htm',
 		opts: "",
 		decisions:[
 			
@@ -619,7 +619,7 @@ module.exports = {
 		]
 	},
 	page_113: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/113.htm',
+		url: 'http://camilamercado.com/GBot/pp/113.htm',
 		opts: "Take or Return",
 		decisions:[
 			{
@@ -634,7 +634,7 @@ module.exports = {
 	},
 
 	page_19: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/019.htm',
+		url: 'http://camilamercado.com/GBot/pp/019.htm',
 		opts: "Storm or Ground",
 		decisions:[
 			{
@@ -649,7 +649,7 @@ module.exports = {
 	},
 
 	page_70: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/070.htm',
+		url: 'http://camilamercado.com/GBot/pp/070.htm',
 		opts: "Call or Own",
 		decisions:[
 			{
@@ -664,7 +664,7 @@ module.exports = {
 	},
 
 	page_95: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/095.htm',
+		url: 'http://camilamercado.com/GBot/pp/095.htm',
 		opts: "",
 		decisions:[
 			{
@@ -675,7 +675,7 @@ module.exports = {
 	},
 
 	page_33: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/033.htm',
+		url: 'http://camilamercado.com/GBot/pp/033.htm',
 		opts: "",
 		decisions:[
 			{
@@ -686,7 +686,7 @@ module.exports = {
 	},
 
 	page_66: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/066.htm',
+		url: 'http://camilamercado.com/GBot/pp/066.htm',
 		opts: "Twister or Hold",
 		decisions:[
 			{
@@ -701,7 +701,7 @@ module.exports = {
 	},
 
 	page_15: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/015.htm',
+		url: 'http://camilamercado.com/GBot/pp/015.htm',
 		opts: "",
 		decisions:[
 			{
@@ -725,7 +725,7 @@ module.exports = {
 	},
 
 	page_77: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/077.htm',
+		url: 'http://camilamercado.com/GBot/pp/077.htm',
 		opts: "Native or Apologiize",
 		decisions:[
 			{
@@ -740,7 +740,7 @@ module.exports = {
 	},
 
 	page_51: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/051.htm',
+		url: 'http://camilamercado.com/GBot/pp/051.htm',
 		opts: "",
 		decisions:[
 			{
@@ -753,7 +753,7 @@ module.exports = {
 			
 
 	page_62: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/062.htm',
+		url: 'http://camilamercado.com/GBot/pp/062.htm',
 		opts: "Trick or Fly",
 		decisions:[
 			{
@@ -768,7 +768,7 @@ module.exports = {
 	},
 
 	page_42: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/042.htm',
+		url: 'http://camilamercado.com/GBot/pp/042.htm',
 		opts: "Suit or Intercom",
 		decisions:[
 			{
@@ -783,7 +783,7 @@ module.exports = {
 	},
 
 	page_86: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/086.htm',
+		url: 'http://camilamercado.com/GBot/pp/086.htm',
 		opts: "Controls or Spin",
 		decisions:[
 			{
@@ -798,7 +798,7 @@ module.exports = {
 	},
 
 	page_121: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/121.htm',
+		url: 'http://camilamercado.com/GBot/pp/121.htm',
 		opts: "",
 		decisions: [
 			{
@@ -809,7 +809,7 @@ module.exports = {
 		]
 	},
 	page_60: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/060.htm',
+		url: 'http://camilamercado.com/GBot/pp/060.htm',
 		opts: "Stay? or Run?",
 		decisions:[
 			{
@@ -824,7 +824,7 @@ module.exports = {
 	},
 
 	page_107: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/107.htm',
+		url: 'http://camilamercado.com/GBot/pp/107.htm',
 		opts: "",
 		decisions:[
 			{
@@ -836,7 +836,7 @@ module.exports = {
 			
 
 	page_14: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/014.htm',
+		url: 'http://camilamercado.com/GBot/pp/014.htm',
 		opts: "",
 		decisions:[
 			{
@@ -847,7 +847,7 @@ module.exports = {
 	},
 			
 	page_117: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/117.htm',
+		url: 'http://camilamercado.com/GBot/pp/117.htm',
 		opts: "",
 		decisions:[
 			{
@@ -859,7 +859,7 @@ module.exports = {
 			
 
 	page_48: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/048.htm',
+		url: 'http://camilamercado.com/GBot/pp/048.htm',
 		opts: "",
 		decisions:[
 			{
@@ -869,7 +869,7 @@ module.exports = {
 		]
 	},
 	page_35: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/035.htm',
+		url: 'http://camilamercado.com/GBot/pp/035.htm',
 		opts: "",
 		decisions:[
 			{
@@ -881,7 +881,7 @@ module.exports = {
 			
 
 	page_125: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/125.htm',
+		url: 'http://camilamercado.com/GBot/pp/125.htm',
 		opts: "",
 		decisions:[
 			{
@@ -892,7 +892,7 @@ module.exports = {
 	},
 			
 	page_86: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/086.htm',
+		url: 'http://camilamercado.com/GBot/pp/086.htm',
 		opts: "",
 		decisions:[
 			{
@@ -903,7 +903,7 @@ module.exports = {
 	},
 
 	page_17: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/017.htm',
+		url: 'http://camilamercado.com/GBot/pp/017.htm',
 		opts: "",
 		decisions:[
 			{
@@ -915,7 +915,7 @@ module.exports = {
 
 			
 	page_23: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/023.htm',
+		url: 'http://camilamercado.com/GBot/pp/023.htm',
 		opts: "",
 		decisions:[
 			{
@@ -928,7 +928,7 @@ module.exports = {
 			
 
 	page_126: {
-		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/126.htm',
+		url: 'http://camilamercado.com/GBot/pp/126.htm',
 		opts: "",
 		decisions:[
 			{

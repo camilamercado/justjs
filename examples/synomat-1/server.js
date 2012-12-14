@@ -11,7 +11,7 @@ var me = options.twitter.username;
 
 var currentPage = 'page_0';
 
-
+var currentTime = Math.round(+new Date()/1000);
 
 // var thesaurus = loadThesaurus();
 bot();
@@ -58,7 +58,7 @@ function bot() {
           console.log(isMatch);
           if(isMatch) {
               // match
-              var replyText = pages[currentPage].url + " To continue tweet back  " + pages[currentPage].opts,
+              var replyText = pages[currentPage].url + " To continue tweet back  " + pages[currentPage].opts + [currentTime],
                 nextOpts = '';
 
               _.each(pages[currentPage].content, function(decision, i){
