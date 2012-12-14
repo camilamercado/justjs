@@ -6,7 +6,7 @@ module.exports = {
 		decisions:[
 			{
 				page:1,
-				name:'Start'
+				name:'Hello'
 			}
 		]
 	},
@@ -44,7 +44,7 @@ module.exports = {
 
 	page_101: {
 		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/101.htm',
-		opts: "-Over",
+		opts: "Start-Over",
 		decisions:[
 			{
 				page:1,
