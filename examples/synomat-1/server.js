@@ -88,7 +88,7 @@ function bot() {
       }
       function reply(msg)
       {
-        tweeter.updateStatus("@" + them + " " + msg, function(err, data)
+        tweeter.updateStatus( function(err, data)
         {
           if (err)
           {
