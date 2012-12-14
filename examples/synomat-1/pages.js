@@ -44,7 +44,7 @@ module.exports = {
 
 	page_101: {
 		url: 'http://camilamercado.com/GBB/GooseBumpsBot/pages/101.htm',
-		opts: "Start-Over",
+		opts: "Begin-Again",
 		decisions:[
 			{
 				page:1,
