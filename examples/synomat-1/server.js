@@ -58,7 +58,7 @@ function bot() {
           console.log(isMatch);
           if(isMatch) {
               // match
-              var replyText = pages[currentPage].url + " To continue tweet back  " + pages[currentPage].opts + [currentTime],
+              var replyText = pages[currentPage].url + [currentTime] " To continue tweet back  " + pages[currentPage].opts,
                 nextOpts = '';
 
               _.each(pages[currentPage].content, function(decision, i){
